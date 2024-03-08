@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+main section p {
+    margin: 20px auto;
+}
+main section {
+    width: 30%;
+    display: inline-block;
+    height: 300px;
+    padding: 70px;
+    margin: 20px;
+    overflow-y: auto;
+}
+main {
+    text-align: center;
+}
+h1 {
+    color: #000000;
+    font-size: 45px;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Audio en HTML</h1> 
+&nbsp;</header>
+<nav>
+  <ul>
+    <li><a href="../index.html">Inicio</a>&nbsp;</li>
+    <li><a href="Galería.html">Galería</a>&nbsp;</li>
+    <li><a href="prácticas.html">Prácticas</a>&nbsp;</li>
+    <li><a href="contacto.html">Contacto</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Audio</h2>
+    <p>Este audio creo que no tiene derechos de autor, je, lo descargué para una tarea de semestres pasados, y son unos aplausos y creo que también incluye algunos chiflidos, jejeje.</p>
+    <p>&nbsp;</p>
+    <audio controls>
+      <source src="../audios/Aplausos.mp3" type="audio/mp3">
+    </audio>
+  </section>
+  <section>
+    <h2>Audio con muted</h2>
+    <p>Este audio creo que no tiene derechos de autor, je, lo descargué para una tarea de semestres pasados, y son unos aplausos y creo que también incluye algunos chiflidos, jejeje.</p>
+    <p>&nbsp;</p>
+    <audio controls="controls" muted="muted" autoplay="autoplay" >
+      <source src="../audios/Aplausos.mp3" type="audio/mp3">
+    </audio>
+  </section>
+  <section>
+    <h2>Audio con loop</h2>
+    <p>Este audio creo que no tiene derechos de autor, je, lo descargué para una tarea de semestres pasados, y son unos aplausos y creo que también incluye algunos chiflidos, jejeje.</p>
+    <p>&nbsp;</p>
+    <audio controls="controls" loop="loop" >
+      <source src="../audios/Aplausos.mp3" type="audio/mp3">
+    </audio>
+  </section>
+	
+  <section>
+    <h2>Audio desde banco de audios</h2>
+    <p>Este es un audio que encontré en un banco de audios, el título se me hizo interesante y por eso lo escogí jajaja, es todo.&nbsp;&nbsp;</p>
+	  <iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_125397488_6_1.html?c1=207f83' loading='lazy'> </iframe>
+	</section>
+	  </main>
+<footer>
+  <h6>Elaborado por Ani Valadez</h6>
+&nbsp;</footer>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+nav {
+    width: auto;
+    height: 20px;
+    font-weight: bolder;
+    font-size: large;
+}
+h1 {
+    color: #000000;
+    font-size: 46px;
+}
+</style>
+</head>
+<header>
+  <h1>Cuestionario</h1>
+</header>
+<nav>
+	 <ul>
+            <li><a href="../index.html"> Inicio</a></li>
+            <li> <a href="Galer%C3%ADa.html">Galería</a></li>
+            <li><a href="../html/prácticas.html">Prácticas</a></li>
+            <li><a href="contacto.html"> Contacto</a></li>
+            </ul>
+	</nav>
+	<main>
+	<body>
+	Cuestionario&nbsp;	Cuestionar&nbsp;	Cuestiona&nbsp;	C&nbsp;&nbsp;el contenido de la etiqueta H1 de diseño&nbsp;
+<p>&nbsp;¿Cuál es su animal favorito?</p>
+<form action="/action_page.php">
+  <label for="cars">Elija un animal&nbsp;</label>
+  <select id="animales" name="cars" size="4" multiple>
+<option value="Gato">Gato</option>
+    <option value="Pez">Pez</option>
+	  <option value="Caballo">Caballo</option>
+	  <option value="Perro">Perro</option>
+	  <option value="Hámster">Hámster</option>
+	  <option value="Iguana">Iguana</option>
+</select>
+<br><br>
+<input name="submit" type="submit" id="submit" formaction="../index.html" value="Enviar">
+</form>
+
+<p> ¿Cómo describiría la materia de diseño de interfaces?</p>
+
+<form action="/action_page.php">
+  <textarea name="message" cols="30" rows="10" class="formato_input"></textarea>
+  <br><br>
+<input name="submit2" type="submit" id="submit2" formaction="../index.html" value="Enviar">
+</form>
+
+	
+<p>Si estás estresado, dale clic aquí abajo</p>
+
+<button type="button" onclick="alert('Ve a tiktok y distráete un rato :) !')">Clickeame</button>
+	
+<p>¿Qué tan cansado te sientes?</p>
+
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="0">
+  100 
+  <input type="number" id="b" name="b" value="0">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+<input name="submit3" type="submit" id="submit3" formaction="../index.html" value="Enviar">
+</form>
+
+	<p> ¿Cómo se siente hoy? </p>
+<form action="/action_page.php" method="get">
+  <input type="checkbox" name="mood1" value="Bike">
+  <label for="mood1"> Estresado</label><br>
+  <input type="checkbox" name="mood2" value="Car">
+  <label for="mood2"> Hasta la cola</label><br>
+  <input type="checkbox" name="mood3" value="Boat" checked>
+  <label for="mood3"> AyudaDiosmíoyanopuedomás</label><br><br>
+<input name="submit4" type="submit" id="submit4" formaction="../index.html" value="Enviar">
+</form>
+
+	<p> ¿Está ya cansado de esto?</p>
+<form action="/action_page.php" method="get">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="a1">Sí</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+  <label for="a2">No (mentira)</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="a3">Opción 1</label><br><br>
+<input name="submit5" type="submit" id="submit5" formaction="../index.html" value="Enviar">
+</form>
+	
+	
+<p> ¿Cuál es tu color favorito?</p>
+
+<form action="/action_page.php">
+  <label for="favcolor">Seleccionalo:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+<input name="submit6" type="submit" id="submit6" formaction="../index.html" value="Enviar">
+</form>
+
+<p> ¿Cuándo es tu cumpleaños?</p>
+
+<form action="/action_page.php">
+  <label for="birthday">Fecha</label>
+  <input type="date" id="birthday" name="birthday">
+<input name="submit7" type="submit" id="submit7" formaction="../index.html" value="Enviar">
+</form>
+
+<p> Del 1 al 5, ¿Qué tan cansado estás? Siendo 1 "poco cansado" y 5 "muy cansado"</p>
+
+<form action="/action_page.php">
+  <label for="quantity">Cantidad (Entre 1 y 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+<input name="submit8" type="submit" id="submit8" formaction="../index.html" value="Enviar">
+</form>
+</body>
+</main>
+</html>
